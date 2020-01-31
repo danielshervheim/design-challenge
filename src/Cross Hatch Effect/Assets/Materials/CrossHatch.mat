@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrossHatch
+  m_Shader: {fileID: 4800000, guid: 1c337119a01c5460e9da1b7276529965, type: 3}
+  m_ShaderKeywords: _OUTLINERELATIVETODISTANCE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Ambient:
+        m_Texture: {fileID: 2800000, guid: 7cf93c152a7844b8b9c83178531845ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Curvature:
+        m_Texture: {fileID: 2800000, guid: 2cdf26650295b4b3385cf56b3e69dcb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stroke1:
+        m_Texture: {fileID: 2800000, guid: a4922a1565a3c43afbb616d0cba6c940, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stroke2:
+        m_Texture: {fileID: 2800000, guid: 86bbebc7bb78b4a2b92322f94f53759a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Thickness:
+        m_Texture: {fileID: 2800000, guid: 68c4bb2f9f1894736902cab96f03bacd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _OutlineDisplacement: 0.002
+    - _OutlineRelativeToDistance: 1
+    - _ScreenSpaceUV: 0
+    - _StrokeScale: 0.03
+    - _StrokeScaleRelativeToDistance: 1
+    m_Colors: []
